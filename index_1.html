@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: aquamarine;
+            border: 2px solid black;
+            margin: 3px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border: 2px solid black;     
+        }
+        .container:nth-child(1) > .box{
+            background-color: rgb(228, 14, 14);
+        }
+        .container:nth-child(2) > .box{
+            background-color: blue;
+        }
+      
+    </style>
+</head>
+<body><div class="container">
+    <div class="box" ></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    
+</div>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+</body>
+</html>
